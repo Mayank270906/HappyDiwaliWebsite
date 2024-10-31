@@ -1,9 +1,9 @@
-/* Basic styling for the body */
+/* Body styling with a darker festive theme */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #3e2723; /* Darker, warm background color */
-    color: #ffd54f; /* Bright golden text for Diwali feel */
+    background-color: #1c1c1c;
+    color: #ffd700;
     margin: 0;
     padding: 0;
 }
@@ -11,21 +11,22 @@ body {
 /* Header styling */
 header h1 {
     font-size: 3em;
-    color: #ffab40; /* Festive orange-gold */
     margin-top: 20px;
+    color: #ffdf00; /* Bright yellow for Diwali lights effect */
 }
 
 header p {
     font-size: 1.2em;
-    color: #ffcc80; /* Light gold for paragraph */
+    color: #ffae42; /* Warm orange text */
     margin-bottom: 20px;
 }
 
-/* Styling for sections */
+/* Section styling */
 section {
     margin: 20px;
     padding: 10px;
-    border-top: 2px solid #ffcc80; /* Light gold border */
+    border-top: 2px solid #ffd700;
+    color: #e0e0e0;
 }
 
 /* Family photo styling */
@@ -34,7 +35,7 @@ section {
     max-width: 300px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Softer, festive glow */
+    box-shadow: 0px 0px 15px rgba(255, 223, 0, 0.5);
 }
 
 /* Decoration styling */
@@ -51,14 +52,15 @@ section {
 
 .decoration p {
     font-size: 1em;
-    color: #ffe082; /* Light yellow for descriptions */
+    color: #ffdf00;
 }
 
-/* Firework image button styling */
+/* Firework button styling */
 .firework-button {
     width: 100px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    filter: drop-shadow(0px 0px 10px #ffd700); /* Glow effect */
 }
 
 .firework-button:hover {
