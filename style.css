@@ -1,75 +1,64 @@
-/* General styles */
+/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffebcd;
-    color: #b22222;
     text-align: center;
+    background-color: #ffeb3b;
+    color: #d32f2f;
     margin: 0;
     padding: 0;
 }
 
-header {
+/* Header styling */
+header h1 {
+    font-size: 3em;
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 3em;
-    color: #d2691e;
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
-/* Family Photo Section */
+/* Styling for sections */
+section {
+    margin: 20px;
+    padding: 10px;
+    border-top: 2px solid #d32f2f;
+}
+
+/* Family photo styling */
 .family-photo {
-    margin: 20px auto;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Decoration styling */
+.decoration {
+    display: inline-block;
+    margin: 10px;
     text-align: center;
 }
 
-.family-photo h2 {
-    color: #d2691e;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.family-pic {
-    width: 80%;
-    max-width: 500px;
-    height: auto;
-    border: 3px solid #b22222;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Rangoli styling */
-.rangoli-container {
-    margin: 20px auto;
-}
-
-.rangoli {
-    width: 150px;
+.decoration img {
+    width: 80px;
     height: auto;
 }
 
-/* Diya images with flickering effect */
-.diya-container {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.decoration p {
+    font-size: 1em;
+    color: #333;
 }
 
-.diya {
-    width: 100px;
-    height: auto;
-    animation: flicker 1s infinite;
+/* Firework image button styling */
+.firework-button {
+    width: 100px; /* Adjust size as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-/* Flickering animation for diyas */
-@keyframes flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
-}
-
-footer {
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #8b4513;
+.firework-button:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
 }
