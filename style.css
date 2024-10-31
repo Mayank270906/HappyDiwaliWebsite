@@ -2,8 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffeb3b;
-    color: #d32f2f;
+    background-color: #3e2723; /* Darker, warm background color */
+    color: #ffd54f; /* Bright golden text for Diwali feel */
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,13 @@ body {
 /* Header styling */
 header h1 {
     font-size: 3em;
+    color: #ffab40; /* Festive orange-gold */
     margin-top: 20px;
 }
 
 header p {
     font-size: 1.2em;
+    color: #ffcc80; /* Light gold for paragraph */
     margin-bottom: 20px;
 }
 
@@ -23,7 +25,7 @@ header p {
 section {
     margin: 20px;
     padding: 10px;
-    border-top: 2px solid #d32f2f;
+    border-top: 2px solid #ffcc80; /* Light gold border */
 }
 
 /* Family photo styling */
@@ -32,7 +34,7 @@ section {
     max-width: 300px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Softer, festive glow */
 }
 
 /* Decoration styling */
@@ -49,16 +51,16 @@ section {
 
 .decoration p {
     font-size: 1em;
-    color: #333;
+    color: #ffe082; /* Light yellow for descriptions */
 }
 
 /* Firework image button styling */
 .firework-button {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .firework-button:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1);
 }
