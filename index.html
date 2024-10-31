@@ -8,35 +8,40 @@
 </head>
 <body>
     <header>
-        <h1>&#x1F386; Happy Diwali! &#x1F386;</h1>
-        <p>&#x1FA94; Wishing you a joyful and prosperous Diwali! &#x1FA94;</p>
+        <h1>🎆 Happy Diwali! 🎉</h1>
+        <p>Wishing you and your family joy, prosperity, and happiness this Diwali! 🌟🪔</p>
     </header>
-    
+
+    <!-- Firework Image Button to Play Sound -->
+    <img src="assets/firework.png" alt="Play Diwali Sound" id="playSoundButton" class="firework-button" onclick="playSound()">
+
+    <!-- Background music element (autoplay is disabled) -->
+    <audio id="fireworksSound" src="assets/fireworks.mp3" loop></audio>
+
     <!-- Family Photo Section -->
-    <section class="family-photo">
-        <h2>Our Family Celebrating Diwali &#x1F447;</h2>
-        <img src="assets/family_photo.jpg" alt="Family celebrating Diwali" class="family-pic">
+    <section>
+        <h2>From Our Family to Yours</h2>
+        <img src="assets/family-photo.jpg" alt="Family Photo" class="family-photo">
+        <p>Warm Diwali wishes from our family to yours. Let's light up the world with love and kindness! ✨</p>
     </section>
 
-    <!-- Rangoli image as decoration -->
-    <section class="rangoli-container">
-        <img src="assets/rangoli.png" alt="Rangoli Decoration" class="rangoli">
+    <!-- Diwali Decorations Section -->
+    <section>
+        <h2>Celebrate with Lights and Colors</h2>
+        <div class="decoration">
+            <img src="assets/diya.png" alt="Diya Lamp">
+            <p>Light a diya to dispel darkness 🌟</p>
+        </div>
+        <div class="decoration">
+            <img src="assets/rangoli.png" alt="Rangoli Design">
+            <p>Make your home colorful with Rangoli 🎨</p>
+        </div>
+        <div class="decoration">
+            <img src="assets/fireworks.png" alt="Fireworks">
+            <p>Enjoy the sparkling fireworks 🎇</p>
+        </div>
     </section>
 
-    <!-- Diya images -->
-    <section class="diya-container">
-        <img src="assets/diya.png" alt="Diya" class="diya">
-        <img src="assets/diya.png" alt="Diya" class="diya">
-        <img src="assets/diya.png" alt="Diya" class="diya">
-    </section>
-
-    <!-- Background music for the festive atmosphere -->
-    <audio id="fireworksSound" src="assets/fireworks.mp3" loop autoplay></audio>
-
-    <footer>
-        <p>&copy; 2024, Wishing You a Bright Diwali!</p>
-    </footer>
-    
     <script src="script.js"></script>
 </body>
 </html>
